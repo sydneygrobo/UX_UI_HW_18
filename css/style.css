@@ -52,16 +52,18 @@ nav {
    
    
     .content {
-      width: 500px;
+      width: 4000px;
       margin: 0 auto;
       text-align: left;
-      padding: 5px;
+      padding: 2px;
     }
+
    
-   
+
     .flexContainer {
       display: flex;
-      justify-content: space between;
+      justify-content: flex-start;
+      
     }
     .footerMenu {
       display: inline-flex;
@@ -93,3 +95,7 @@ nav {
     body{
       background-color: #FFF6EA
     }
+
+    div {
+      text-align: left;
+   }
